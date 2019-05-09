@@ -1,0 +1,53 @@
+﻿{ 
+	"deliveryVersion": "1.0", 
+	"postTime": %s, 
+	"events": [ 
+{
+  "cookies" : {
+    "xp_ab" : "%s",
+    "xp_abc" : "%s"
+  },
+  "storeFront" : "143465",
+  "platformResponseEndTime" : %s,
+  "platformResponseStartTime" : %s,
+  "eventTime" : %s,
+  "clientCorrelationKey" : "%s",
+  "dsId" : "%s",
+  "timezoneOffset" : -480,
+  "appVersion" : "274.22",
+  "userAgent" : "%s",
+  "storeFrontHeader" : "%s",
+  "searchTerm" : "%s",
+  "pageRequestedTime" : %s,
+  "screenWidth" : %d,
+  "app" : "com.apple.AppStore",
+  "capacityDataAvailable" : 54200,
+  "eventType" : "pageRender",
+  "pageType" : "Search",
+  "pixelRatio" : 2,
+  "environmentDataCenter" : "%s",
+  "capacityData" : 56400,
+  "pageUserReadyTime" : %s,
+  "osVersion" : "%s",
+  "platformName" : "P84",
+  "capacityDisk" : 60400,
+  "eventVersion" : 1,
+  "page" : "%s",
+  "screenHeight" : %d,
+  "topic" : "xp_amp_clientperf",
+  "resourceRevNum" : "%s",
+  "connection" : "WiFi",
+  "serverInstance" : "%s",
+  "clientId" : "%s",
+  "pageContext" : "Search",
+  "xpPostFrequency" : 60000,
+  "platformId" : "29",
+  "baseVersion" : 1,
+  "language" : "19",
+  "platformRequestStartTime" : %s,
+  "capacitySystem" : 4000,
+  "xpSendMethod" : "itms",
+  "capacitySystemAvailable" : 500
+}
+	] 
+} 

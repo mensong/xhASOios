@@ -1,0 +1,381 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\xhASO.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_XHASO_DIALOG DIALOGEX 0, 0, 664, 412
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "xhASO"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "开始",IDC_BTN_COMMENT,531,389,50,14
+    EDITTEXT        IDC_EDIT_HOTWORD,573,3,81,14,ES_AUTOHSCROLL
+    CTEXT           "当前IP:",IDC_STATIC,4,3,33,12
+    LTEXT           "",IDC_STATIC_CURRRENT_IP,36,3,58,12
+    CTEXT           "连接状态:",IDC_STATIC,97,3,51,10
+    CTEXT           "App产品 Id:",IDC_STATIC,382,4,53,11
+    LTEXT           "",IDC_STATIC_CONNECT_STATUS,151,3,59,12
+    GROUPBOX        "信息状态列表",IDC_STATIC,3,64,660,320
+    CONTROL         "",IDC_LIST_APPLEIDS_LOGIN_DOWNLOAD,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,5,75,656,304
+    LTEXT           "搜索关键词:",IDC_STATIC,517,4,46,12
+    EDITTEXT        IDC_EDIT_APP_ID,435,3,67,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "开始评论",IDC_BTN_START_COMMENT,551,23,50,14
+    PUSHBUTTON      "开始搜索",IDC_BTN_START_SEARCH,497,23,50,14
+    PUSHBUTTON      "开始下载",IDC_BTN_DOWNLOAD,605,23,50,14
+    LTEXT           "统计:",IDC_STATIC,8,385,27,12
+    LTEXT           "",IDC_SHOW_RESULT,35,385,73,14
+    RTEXT           "切换频度: 执行",IDC_STATIC,221,5,71,9
+    EDITTEXT        IDC_EDIT_EACH_SWITCH,296,3,25,13,ES_AUTOHSCROLL
+    LTEXT           "次切换一次IP",IDC_STATIC,327,4,53,13
+    GROUPBOX        "网络类型",IDC_STATIC,3,16,128,25
+    CONTROL         "vpn",IDC_RADIO_VPN,"Button",BS_AUTORADIOBUTTON | WS_GROUP,13,26,28,10
+    CONTROL         "宽带",IDC_RADIO_DIAL_UP,"Button",BS_AUTORADIOBUTTON,52,26,32,10
+    CONTROL         "代理",IDC_RADIO_AGENT,"Button",BS_AUTORADIOBUTTON,97,26,32,10
+    GROUPBOX        "载入方式",IDC_STATIC,134,16,106,25
+    CONTROL         "本地",IDC_RADIO_LOCAL_LOAD,"Button",BS_AUTORADIOBUTTON | WS_GROUP,149,26,32,10
+    CONTROL         "服务器",IDC_RADIO_SERVER_LOAD,"Button",BS_AUTORADIOBUTTON,193,26,40,10
+    LTEXT           "App链接:",IDC_STATIC,247,27,32,8
+    EDITTEXT        IDC_EDIT_TARGET_URL,283,24,208,14,ES_AUTOHSCROLL
+    RTEXT           "版本号:1.101",IDC_STATIC,593,389,65,14
+    PUSHBUTTON      "启动",IDC_BTN_SERVER_START,551,47,50,14
+    PUSHBUTTON      "停止",IDC_BTN_SERVER_STOP,605,47,50,14
+    GROUPBOX        "购买类型",IDC_STATIC,438,40,106,25
+    CONTROL         "免费",IDC_RADIO_FREE,"Button",BS_AUTORADIOBUTTON,449,50,32,10
+    CONTROL         "付费",IDC_RADIO_PAID,"Button",BS_AUTORADIOBUTTON,501,50,32,10
+    LTEXT           "App价格:",IDC_PRICE_NAME,352,51,33,13
+    EDITTEXT        IDC_EDIT_PRICE,389,49,40,14,ES_AUTOHSCROLL
+    GROUPBOX        "执行类型",IDC_STATIC,134,41,105,24
+    CONTROL         "进程",IDC_RADIO_PROCESS,"Button",BS_AUTORADIOBUTTON,148,51,32,10
+    CONTROL         "线程",IDC_RADIO_THREAD,"Button",BS_AUTORADIOBUTTON,194,51,32,10
+    RTEXT           "执行数:",IDC_STATIC_EXECUTE_COUNTS,243,51,35,11
+    LTEXT           "设备:",IDC_STATIC,10,49,20,8
+    LTEXT           "iphone6s Plus",IDC_STATIC,38,49,63,14
+    EDITTEXT        IDC_EDIT_EXECUTE_COUNTS,283,49,53,14,ES_AUTOHSCROLL
+    RTEXT           "当前任务数:",IDC_STATIC,107,385,51,11
+    LTEXT           "",IDC_STC_CURRENT_TASK_COUNT,160,385,52,13
+END
+
+IDD_LOAD_APPLEID_DIALOG DIALOGEX 0, 0, 292, 76
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "apple Id批量加载......"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "苹果账号文件路径:",IDC_STATIC,7,14,268,48
+    PUSHBUTTON      "加载",IDC_BTN_LOAD,109,45,50,14
+    EDITTEXT        IDC_EDIT_APPLEIDFILE_PATH,11,27,200,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览……",IDC_BTN_BROWSER,217,27,50,14
+END
+
+IDD_VPNIP_DIALOG DIALOGEX 0, 0, 296, 81
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "VPN IP 加载......"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "VPN IP列表路径:",IDC_STATIC,11,7,275,67
+    EDITTEXT        IDC_EDIT1_VPN_IP_PATH,14,25,206,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览……",IDC_BTN_VPNIP_BROWSER,232,25,50,14
+    PUSHBUTTON      "加载IP",IDC_BTN_LOAD_IP,110,51,50,14
+END
+
+IDD_ABOUT_DIALOG DIALOGEX 0, 0, 208, 104
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,52,69,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,106,69,50,14
+    LTEXT           "本软件仅供技术交流和学习， \n任何人任何组织不得拿该软件代码用于商业用途和损害他人利益的事情\n,否则由此产生的一切后果，由自己承担。",IDC_STATIC,17,27,180,36
+END
+
+IDD_VPN_CONNECT_DIALOG DIALOGEX 0, 0, 247, 127
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "VPN登录"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_ACCOUNT,83,35,107,14,ES_AUTOHSCROLL
+    RTEXT           "账号:",IDC_STATIC,37,36,39,13
+    RTEXT           "密码:",IDC_STATIC,38,56,38,13
+    EDITTEXT        IDC_EDIT_PASSWORD,83,55,107,14,ES_PASSWORD | ES_AUTOHSCROLL
+    GROUPBOX        "VPN账号登录",IDC_STATIC,25,20,197,93
+    PUSHBUTTON      "登录",IDC_BTN_LOGIN,120,98,50,14
+    CONTROL         "记住",IDC_CHECK_SAVE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,74,100,32,10
+    EDITTEXT        IDC_EDIT_IP_ADDRESS,83,75,107,14,ES_AUTOHSCROLL
+    RTEXT           "IP地址:",IDC_STATIC,37,77,39,13
+END
+
+IDD_LOAD_COMMENT_DIALOG DIALOGEX 0, 0, 316, 95
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "加载评论内容"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "加载评论内容:",IDC_STATIC,7,14,302,74
+    PUSHBUTTON      "加载",IDC_BTN_LOAD_COMMENT,121,65,50,14
+    EDITTEXT        IDC_EDIT_COMMENT,13,34,221,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览……",IDC_BTN_BROWSE,247,33,50,14
+END
+
+IDD_DLG_DIALUP DIALOGEX 0, 0, 237, 130
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "拨号登录"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "拨号登录",IDC_STATIC,15,17,206,96
+    RTEXT           "账号:",IDC_STATIC,36,32,35,17
+    RTEXT           "密码:",IDC_STATIC,36,56,36,17
+    EDITTEXT        IDC_EDIT_DIALUP_ACCOUNT,81,32,93,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_DIALUP_PWD,81,55,93,14,ES_PASSWORD | ES_AUTOHSCROLL
+    CONTROL         "记住",IDC_CHECK_REMEMBER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,68,84,32,10
+    PUSHBUTTON      "登录",IDC_BTN_DIALUP_LOGIN,108,82,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_XHASO_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 663
+        RIGHTMARGIN, 658
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 408
+    END
+
+    IDD_LOAD_APPLEID_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 285
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 69
+    END
+
+    IDD_VPNIP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 289
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 74
+    END
+
+    IDD_ABOUT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 201
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 97
+    END
+
+    IDD_VPN_CONNECT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 240
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 120
+    END
+
+    IDD_LOAD_COMMENT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_DLG_DIALUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 230
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 123
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "文件"
+    BEGIN
+        MENUITEM "加载VPN IP",                    ID_FILE_LOADVPN
+        MENUITEM "加载AppleId",                   ID_FILE_LOADAPPLEID
+        MENUITEM "加载评论",                        ID_COMMNETS
+    END
+    POPUP "网络"
+    BEGIN
+        MENUITEM "VPN连接",                       ID_VPN_CONNECT_CMD
+        MENUITEM "宽带连接",                        ID_PPPOE_CONNECT_CMD
+    END
+    POPUP "命令"
+    BEGIN
+        MENUITEM "登录",                          ID_LOGIN_APPLEID
+        MENUITEM "下载",                          ID_DOWNLOAD_APP
+        MENUITEM "评论",                          ID_COMMENT_APP
+        MENUITEM "搜索",                          ID_SEARCH_KEYWORD
+        MENUITEM "注册",                          ID_REGISTER_APPLEID
+    END
+    POPUP "帮助"
+    BEGIN
+        MENUITEM "联系我",                         ID_CONNECT_ME
+    END
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "res\\myicon.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 9,0,0,0
+ PRODUCTVERSION 9,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080004e4"
+        BEGIN
+            VALUE "CompanyName", "xhASO"
+            VALUE "FileDescription", "xhASO App"
+            VALUE "FileVersion", "9.0.0.0"
+            VALUE "InternalName", "xhASO.exe"
+            VALUE "LegalCopyright", "xhASO Copy Right"
+            VALUE "OriginalFilename", "xhASO.exe"
+            VALUE "ProductName", "ASO"
+            VALUE "ProductVersion", "9.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x800, 1252
+    END
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\xhASO.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

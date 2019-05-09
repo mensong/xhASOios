@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accountKind</key>
+	<string>0</string>
+	<key>appleId</key>
+	<string>%s</string>
+	<key>attempt</key>
+	<string>0</string>
+	<key>createSession</key>
+	<string>true</string>
+	<key>guid</key>
+	<string>%s</string>
+	<key>kbsync</key>
+	<data>
+	%s
+	</data>
+	<key>password</key>
+	<string>%s</string>
+	<key>passwordSettings</key>
+	<dict>
+		<key>free</key>
+		<string>always</string>
+		<key>paid</key>
+		<string>always</string>
+	</dict>
+	<key>requirePasswordImmediately</key>
+	<false/>
+	<key>rmp</key>
+	<string>0</string>
+	<key>why</key>
+	<string>serverDialog</string>
+</dict>
+</plist>

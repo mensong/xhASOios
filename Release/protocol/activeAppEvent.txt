@@ -1,0 +1,107 @@
+﻿{ 
+	"deliveryVersion": "1.0", 
+	"postTime": %s, 
+	"events": [ 
+{
+  "impressions" : [
+	{
+      "impressionType" : "grid",
+      "impressionId" : 1,
+      "impressionIndex" : 0,
+	  "impressionQueueTag" : "data-metrics",
+      "impressionTimes" : [
+        %s
+      ]
+    },
+    {
+      "impressionTimes" : [
+        %s
+      ],
+      "kind" : "iosSoftware",
+      "id" : "%s",
+      "name" : "%s",
+      "impressionIndex" : %d,
+      "impressionType" : "card",
+      "impressionParentId" : 1,
+      "impressionId" : 2,
+      "idType" : "its_id"
+    }
+
+  ],
+  "target" : "button_%s",
+  "language" : "19",
+  "screenWidth" : %d,
+  "storeFront" : "143465",
+  "clientId" : "%s",
+  "baseVersion" : 1,
+  "actionDetails" : "%s",
+  "pixelRatio" : 2,
+  "eventVersion" : 3,
+  "storeFrontHeader" : "%s",
+  "pageDetails" : "%s",
+  "targetId" : %s,
+  "platformId" : "%s",
+  "dsId" : "%s",
+  "serverInstance" : "%s",
+  "app" : "com.apple.AppStore",
+  "xpSendMethod" : "itms",
+  "xpPostFrequency" : 60000,
+  "location" : [
+    {
+      "name" : "%s",
+      "id" : %s,
+      "idType" : "its_id",
+      "locationType" : "button",
+      "kind" : "iosSoftware",
+      "locationPosition" : 0
+    }
+  ],
+  "topic" : "xp_its_main",
+  "cookies" : {"xp_ab" : "%s","xp_abc" : "%s" },
+  "screenHeight" : %d,
+  "eventTime" : %s,
+  "platformName" : "%s",
+  "page" : "%s",
+  "targetType" : "button",
+  "pageId" : "%s",
+  "actionType" : "select",
+  "connection" : "WiFi",
+  "osVersion" : "%s",
+  "userAgent" : "%s",
+  "timezoneOffset" : -480,
+  "appVersion" : "2.0",
+  "eventType" : "click",
+  "environmentDataCenter" : "%s",
+  "resourceRevNum" : "%s",
+  "pageType" : "Search",
+  "pageContext" : "Search"
+},{
+  "environmentDataCenter" : "%s",
+  "eventVersion" : 1,
+  "connection" : "WiFi",
+  "xpSendMethod" : "itms",
+  "storeFront" : "143465",
+  "userAgent" : "%s",
+  "pageContext" : "Search",
+  "eventType" : "exit",
+  "clientId" : "%s",
+  "resourceRevNum" : "%s",
+  "screenWidth" : %d,
+  "screenHeight" : %d,
+  "platformName" : "%s",
+  "platformId" : "%s",
+  "osVersion" : "%s",
+  "baseVersion" : 1,
+  "language" : "19",
+  "timezoneOffset" : -480,
+  "xpPostFrequency" : 60000,
+  "dsId" : "%s",
+  "storeFrontHeader" : "%s",
+  "appVersion" : "2.0",
+  "topic" : "xp_its_main",
+  "eventTime" : %s,
+  "pixelRatio" : 2,
+  "app" : "com.apple.AppStore"
+}
+	] 
+} 

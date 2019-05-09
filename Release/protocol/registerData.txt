@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>device-name-data</key>
+	<data>
+	%s
+	</data>
+	<key>environment</key>
+	<string>production</string>
+	<key>guid</key>
+	<string>%s</string>
+	<key>serial-number</key>
+	<string>%s</string>
+	<key>token</key>
+	<data>
+	%s
+	</data>
+</dict>
+</plist>

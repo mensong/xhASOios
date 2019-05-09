@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ageCheck</key>
+	<string>true</string>
+	<key>appExtVrsId</key>
+	<string>%s</string>
+	<key>asn</key>
+	<string>%d</string>
+	<key>clientBuyId</key>
+	<string>1</string>
+	<key>guid</key>
+	<string>%s</string>
+	<key>hasBeenAuthedForBuy</key>
+	<string>true</string>
+	<key>isInApp</key>
+	<string>false</string>
+	<key>kbsync</key>
+	<string>%s</string>
+	<key>mtApp</key>
+	<string>com.apple.AppStore</string>
+	<key>mtClientId</key>
+	<string>%s</string>
+	<key>mtEventTime</key>
+	<string>%s</string>
+	<key>mtPageContext</key>
+	<string>Search</string>
+	<key>mtPageId</key>
+	<string>%s</string>
+	<key>mtPageType</key>
+	<string>Search</string>
+	<key>mtPrevPage</key>
+	<string>Software_%s</string>
+	<key>mtRequestId</key>
+	<string>%s</string>
+	<key>mtSearchTerm</key>
+	<string>%s</string>
+	<key>mtTopic</key>
+	<string>xp_its_main</string>
+	<key>origName</key>
+	<string>%s</string>
+	<key>pg</key>
+	<string>default</string>
+	<key>price</key>
+	<string>0</string>
+	<key>pricingParameters</key>
+	<string>STDQ</string>
+	<key>productType</key>
+	<string>C</string>
+	<key>salableAdamId</key>
+	<string>%s</string>
+	<key>sbsync</key>
+	<string>%s</string>
+</dict>
+</plist>

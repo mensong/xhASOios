@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Header</key>
+	<dict/>
+	<key>Request</key>
+	<dict>
+		<key>clbg</key>
+		<string>0</string>
+		<key>clcg</key>
+		<string>0</string>
+		<key>clhs</key>
+		<string>0</string>
+		<key>dc</key>
+		<string>#e1e4e3</string>
+		<key>dec</key>
+		<string>#d7d9d8</string>
+		<key>dn</key>
+		<string>iPhone</string>
+		<key>event</key>
+		<string>liveness</string>
+		<key>imei</key>
+		<string>%s</string>
+		<key>loc</key>
+		<string>zh_CN</string>
+		<key>meid</key>
+		<string>%s</string>
+		<key>prkgen</key>
+		<false/>
+		<key>prtn</key>
+		<string>MG5C2</string>
+		<key>ptkn</key>
+		<string>D6FE2E6B34D12B0E2F243854A6446EA4B9F7F49566AE6C809BDCA48688F91651</string>
+		<key>services</key>
+		<array>
+			<string>itunesstore</string>
+		</array>
+		<key>sn</key>
+		<string>%s</string>
+		<key>ut</key>
+		<integer>1</integer>
+	</dict>
+</dict>
+</plist>

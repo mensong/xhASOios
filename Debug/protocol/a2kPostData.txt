@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Header</key>
+	<dict>
+		<key>Version</key>
+		<string>1.0.1</string>
+	</dict>
+	<key>Request</key>
+	<dict>
+		<key>A2k</key>
+		<data>
+		%s
+		</data>
+		<key>cpd</key>
+		<dict>
+			<key>AppleIDClientIdentifier</key>
+			<string>%s</string>
+			<key>X-Apple-I-Client-Time</key>
+			<string>%s</string>
+			<key>X-Apple-I-MD</key>
+			<string>%s</string>
+			<key>X-Apple-I-MD-M</key>
+			<string>%s</string>
+			<key>X-Apple-I-MD-RINFO</key>
+			<string>17106176</string>
+			<key>X-Apple-I-SRL-NO</key>
+			<string>%s</string>
+			<key>X-Mme-Device-Id</key>
+			<string>%s</string>
+			<key>bootstrap</key>
+			<true/>
+			<key>ckgen</key>
+			<true/>
+			<key>dc</key>
+			<string>#99989b</string>
+			<key>dec</key>
+			<string>#3b3b3c</string>
+			<key>loc</key>
+			<string>zh_CN</string>
+			<key>pbe</key>
+			<false/>
+			<key>prtn</key>
+			<string>ME341</string>
+			<key>svct</key>
+			<string>iTunes</string>
+		</dict>
+		<key>o</key>
+		<string>init</string>
+		<key>ps</key>
+		<array>
+			<string>s2k</string>
+			<string>s2k_fo</string>
+		</array>
+		<key>u</key>
+		<string>%s</string>
+	</dict>
+</dict>
+</plist>
